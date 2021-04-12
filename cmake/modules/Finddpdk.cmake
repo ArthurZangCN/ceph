@@ -41,6 +41,7 @@ set(components
   bus_vdev
   cfgfile
   cmdline
+  common_mlx5
   eal
   ethdev
   hash
@@ -49,6 +50,7 @@ set(components
   mempool
   mempool_ring
   mempool_stack
+  meter
   net
   pci
   pmd_af_packet
@@ -67,7 +69,8 @@ set(components
   pmd_sfc_efx
   pmd_vmxnet3_uio
   ring
-  timer)
+  timer
+  telemetry)
 
 # for collecting dpdk library targets, it will be used when defining dpdk::dpdk
 set(_dpdk_libs)
